@@ -1,42 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/DataTable.css" />
+
   <title>Dados</title>
 </head>
+
 <body>
   <header>
     <navbar class="navbar">
-      <nav>
-        <a href="./index.html">Home</a>
-      </nav>
-
-      <nav>
-        <a href="./DataTable.html">Data Table</a>
-      </nav>
-      
-      <nav>
-        <a href="./Contact.html">Contato</a>
-      </nav>
-
-      <nav>
-        <a href="./Developers.html">Developers</a>
-      </nav>
-      
+      <nav><a href="./index.html">Home</a></nav>
+      <nav><a href="./DataTable.html">Data Table</a></nav>
+      <nav><a href="./Contact.html">Contato</a></nav>
+      <nav><a href="./Developers.html">Developers</a></nav>
     </navbar>
   </header>
 
   <main>
-    <h1>Dados</h1>
+    <h1>Animais em Extinção</h1>
 
     <table>
-      <thead></thead>
-      <tr>
-        <th></th>
-      </tr>
+      <thead>
+        <tr>
+          <th>Imagem</th>
+          <th>Nome</th>
+          <th>Espécie</th>
+          <th>Status de Conservação</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td><img src="https://media.istockphoto.com/id/1420676204/pt/foto/portrait-of-a-royal-bengal-tiger-alert-and-staring-at-the-camera-national-animal-of-bangladesh.jpg?s=612x612&w=0&k=20&c=ykuy9gJsM_6-kxuiBwGdur8j5fn_XhM-CkH485l-siA=" alt="Tigre-de-bengala"></td>
+          <td>Tigre-de-bengala</td>
+          <td><i>Panthera tigris</i></td>
+          <td>Ameaçado (EN)</td>
+        </tr>
+        
+        <tr>
+          <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS27ltGL_E8EnF3650xAzYQKwM0tx29wPluO0BQLYIKVeC_5jdj0PkOFrxPGAIqJuWlXWR4-3wcSjv3y09d2yExK75mWcrynzzGmgjbLAvqng" / alt="Elefante-Africano-Da-Savana"></td>
+          <td>Elefante-Africano-Da-Savana</td>
+          <td><i>Loxodonta africana</i></td>
+          <td>Ameaçado (EN)</td>
+        </tr>
+        
+        <tr>
+          <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPLOM3jngh-AP7tJw8pWFaIVEMyttNB2agzwawnGZNbYj4J-8bryZGlB5ES1mnzLPEQSui4Yu5yWAXdQ0CY3qNRnvvrNF-mgPE3WFIVl_L" alt="Ararajuba"></td>
+          <td>Ararajuba</td>
+          <td><i>Guaruba guarouba</i></td>
+          <td>Vulnerável (VU)</td>
+        </tr>
+        
+        <tr>
+          <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsBkLGbZxhwd0DQpPgnyH1zdL39EPBBKqOc1Tj2Ia81Z2gVmO6m-cafnV269v7GhumLyFXehhIbedu_6MCmsHsucYekJd4IFdVETAT01Fx" alt="Orangotango-de-sumatra"></td>
+          <td>Orangotango-de-sumatra</td>
+          <td><i>Pongo abelii</i></td>
+          <td>Criticamente Ameaçado (CR)</td>
+        </tr>
+        
+        <tr>
+          <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQf8UReJlkI04Mhc87R1xygWBtpK6D_1pqe7dzpQp-1IrrthD35QO4fqKnpIK3vCfwK5oxSHeGVPSx2eZRAXDwkjNRxs6wH0rs9-u6Toknw" alt="Tartaruga-de-couro"></td>
+          <td>Tartaruga-de-couro</td>
+          <td><i>Dermochelys coriacea</i></td>
+          <td>Vulnerável (VU)</td>
+        </tr>
+      </tbody>
     </table>
   </main>
 </body>
