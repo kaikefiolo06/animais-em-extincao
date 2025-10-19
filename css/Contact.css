@@ -1,6 +1,37 @@
-form {
+body {
+  background-image: linear-gradient(to bottom, white 0,9%, green 300%);
+}
+main {
+  padding: 70px;
+}
+main form {
+  padding: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #9a8e8ea7;
+  font-size: x-large;
+}
+
+button-float {
+  background-color: #4a00e0;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0,3);
+  transition: transform 0,2s, box-shadow 0,2s;
+
+}
+
+button-float:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0,4);
+}
+footer {
+  padding-top: 140px;
+  text-align: center;
 }
