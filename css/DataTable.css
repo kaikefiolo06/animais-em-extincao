@@ -1,22 +1,30 @@
+body {
+  background-image: linear-gradient(to bottom, white 0,9%, green 300%);
+}
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  background-color: #9a8e8ea7;
+  font-size: large;
 }
 
-th, td {
-  border: 1px solid #ccc;
+table th, td {
+  border: 1px solid #000000;
   padding: 8px;
   text-align: center;
+  
 }
 
-th {
-  background-color: #f4f4f4;
-}
-
-img {
+tr img {
   width: 100px;
   height: auto;
   border-radius: 6px;
+  margin: 10px;
+}
+
+footer {
+  padding-top: 90px;
+  text-align: center;
 }
