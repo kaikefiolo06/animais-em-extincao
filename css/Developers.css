@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to bottom, white 0,9%, green 300%);
+  padding-bottom:500px;
 }
 .list {
   display: flex;
@@ -9,6 +10,7 @@ body {
 }
 
 .list li {
+  padding-top: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
