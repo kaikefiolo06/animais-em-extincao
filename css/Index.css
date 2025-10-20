@@ -1,5 +1,5 @@
 body {
-  background-image: url(imagens/floresta.png);
+  background-image: url('imagens/floresta.png');
   height: 1;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,3 +35,4 @@ footer {
   padding-top: 399px;
   text-align: center;
 }
+
