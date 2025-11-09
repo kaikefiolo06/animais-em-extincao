@@ -4,6 +4,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 } 
+
+body.tema-escuro {
+  background-image:url(../imagens/floreta-noturna.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 main {
   text-align: center;
 }
@@ -13,7 +21,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.6;
   max-width: 800px;
   padding-top: 50px;
@@ -33,6 +41,4 @@ h2 {
 footer {
   padding-top: 399px;
   text-align: center;
-
 }
-
