@@ -1,6 +1,13 @@
 body {
   background-image: linear-gradient(to bottom, white 0,9%, green 300%);
 }
+body.tema-escuro table{
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #433f3fa7;
+  font-size: large;
+}
 
 table {
   width: 90%;
@@ -28,4 +35,3 @@ footer {
   padding-top: 90px;
   text-align: center;
 }
-
