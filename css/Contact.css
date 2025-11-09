@@ -1,9 +1,11 @@
 body {
   background-image: linear-gradient(to bottom, white 0,9%, green 300%);
 }
+
 main {
   padding: 70px;
 }
+
 form {
   padding-top: 10px;
   padding-right: 20px;
@@ -56,9 +58,9 @@ textarea:focus {
   outline: none;
 }
 
-button {
+form button {
   margin-top: 30px;
-  background-color: green; /* verde natureza */
+  background-color: green;
   color: white;
   padding: 12px 25px;
   border: none;
@@ -68,6 +70,56 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+form button:hover {
   background-color: #388E3C;
 }
+
+body.tema-escuro main form {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(75, 72, 72);
+  font-size: x-large;
+}
+
+body.tema-escuro main form label input {
+  width: 100%;
+  background-color: #6cd370;
+  border: 1px solid rgb(75, 72, 72);
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(41, 41, 41);
+  font-family: "Verdana", sans-serif;
+  align-items: center;
+}
+
+body.tema-escuro main form label input:focus {
+  background-color: #738d55;
+  border-color: black;
+  outline: none;
+}
+
+body.tema-escuro main form label textarea {
+  width: 100%;
+  background-color: #6cd370;
+  border: 1px solid rgb(75, 72, 72);
+  border-radius: 10px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  color: black;
+  font-family: "Verdana", sans-serif;
+}
+
+body.tema-escuro main form label textarea:focus {
+  background-color: #738d55;
+  border-color: black;
+  outline: none;
+}
+
