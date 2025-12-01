@@ -7,7 +7,7 @@ body {
 
 body.tema-escuro {
   background-image:url(../imagens/floreta-noturna.png);
-  background-position: center;
+  background-position: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,7 +20,7 @@ h1 {
   padding-top: 10px;
 }
 
-p {
+main > p {
   font-size: 25px;
   line-height: 1.6;
   max-width: 800px;
@@ -30,15 +30,4 @@ p {
 h2 {
   padding-top: 20px;
   font-size: large;
-}
-
-#marca {
-  font-size: medium;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
-  padding-top: 399px;
-  text-align: center;
 }
