@@ -5,7 +5,94 @@ body {
 
 body.tema-escuro {
   color: white;
+  background-image: linear-gradient(to bottom, rgb(3, 171, 3) 0,9%html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-image: linear-gradient(to bottom, white 0,9%, green 300%);
+}
+
+body.tema-escuro {
+  color: white;
   background-image: linear-gradient(to bottom, rgb(3, 171, 3) 0,9%, rgb(0, 51, 0) 300%);
+}
+
+body.tema-escuro #marca {
+  color: white;
+}
+
+body.tema-escuro nav a {
+  color: white;
+}
+
+body.tema-escuro .navbar {
+  background-color: #002c00;
+}
+
+body.tema-escuro .navbar nav {
+  background-color: #001d00;
+}
+
+body.tema-escuro header button {
+  border: 1px solid white;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%; 
+  background-color: darkgreen;
+  padding: 10px;
+  height: 40px;
+  width: auto;
+}
+
+.navbar nav {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(9, 139, 9, 0.54);
+}
+
+nav a {
+  font-size: x-large;
+  color: black; 
+  text-decoration: none;
+}
+
+button.tema-escuro {
+  border: 1px solid white;
+  background-color: white;
+}
+
+button {
+  border: 1px solid black;
+  background-color: black;
+  cursor: pointer;
+}
+
+footer {
+  padding-top: 90px;
+  text-align: center;
+}
+
+footer > #marca {
+  font-size: medium;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}, rgb(0, 51, 0) 300%);
 }
 
 body.tema-escuro #marca {
@@ -65,3 +152,4 @@ button {
   border: 1px solid black;
   background-color: black;
 }
+
